@@ -1,0 +1,21 @@
+.c_main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c_main_c{
+    width: 400px;
+    height: 400px;
+    border: black solid 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_main_c_time{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
