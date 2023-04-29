@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .c_main_c{
     width: 400px;
@@ -18,4 +19,18 @@
 .c_main_c_time{
     font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.b{
+    margin: 50px;
+    background-color: #fff;
+    padding: 8px 100px;
+    cursor: pointer;
+}
+
+.b:hover{
+    background-color: #d4d4d4;
+}
+.b:active{
+    background-color: #9b9b9b;
 }
